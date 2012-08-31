@@ -9,7 +9,7 @@
 //----------------------------------------------------
 #ifdef SparkyJrUSB
   int commonPins[outputs] = {23,22,21,20,19,18,13,5};
-  int colorPins[colors] = {9,11,10};
+  int colorPins[colors] = {9,10,11};
   int buttonPins[inputs] = {3,2,0,1,4,12,6,8};
   int configLED = 7;
 #endif

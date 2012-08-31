@@ -11,7 +11,6 @@ char cyan[] = "00FFFF";
 char yellow[] = "FFFF00";
 char orange[] = "CC3300";
 char pink[] = "FF0066";
-char lime[] = "00FF33";
 char white[] = "FFFFFF";
 char grey[] = "CCCCCC";
 char dkgrey[] = "666666";
@@ -43,15 +42,15 @@ open the color pallette tool and provide the equivelant hex number
 */
 
 char* defaultPattern[18] = {
-  blue, // P1
-  cyan, // P2
-  lime, // P3
+  red, // P1
+  orange, // P2
+  yellow, // P3
   green, // P4
-  red, // K1
-  orange, // K2
-  pink, // K3
-  purple, // K4
-  yellow, // 2x P
+  purple, // K1
+  pink, // K2
+  cyan, // K3
+  blue, // K4
+  white, // 2x P
   white, // 3x P
   white, // 4x P
   white, // 2x K
