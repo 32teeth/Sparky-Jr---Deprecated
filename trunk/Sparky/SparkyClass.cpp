@@ -33,8 +33,8 @@ String MESSAGE = "";
   recomment all others
 */
 
-//#define SparkyJrUSB
-#define SparkyJrFTDI
+#define SparkyJrUSB
+//#define SparkyJrFTDI
 //#define SparkyJrShield
 
 /*

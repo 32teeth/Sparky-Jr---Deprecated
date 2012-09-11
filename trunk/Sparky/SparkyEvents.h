@@ -39,13 +39,7 @@ boolean hold = false;
 */
 void SparkyClass::intro()
 {
-  /*
-  for(int n = 0; n < 8; n++)
-  {
-    buttonPressed[n] = 0;
-    this->draw();    
-  } 
-  */ 
+
 }
 
 /*
