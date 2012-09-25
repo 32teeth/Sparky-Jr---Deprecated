@@ -5,8 +5,6 @@
 */
 
 
-
-
 /*
   #include files
 */
@@ -43,7 +41,9 @@ void setup()
         0x06  		256  		122.0703125
         0x07 	 	1024  		30.517578125
   */
-  TCCR2B = TCCR2B & 0b11111000 | 0x01;  
+  TCCR2B = TCCR2B & 0b11111000 | 0x01;
+
+  Sparky->intro();  
 }
 
 void loop()

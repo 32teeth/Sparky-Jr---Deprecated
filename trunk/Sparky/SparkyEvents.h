@@ -39,7 +39,16 @@ boolean hold = false;
 */
 void SparkyClass::intro()
 {
-
+  for(int n = 0; n < outputs; n++)
+  {
+    for(int c = 0; c < 3; c++){analogWrite(colorPins[c], rgbColorArray[n][c]);}    
+    if(buttonPressed[n] == 0)
+    {
+      digitalWrite(commonPins[n], HIGH);
+      delay(250);
+      digitalWrite(commonPins[n], LOW);
+    }
+  } 
 }
 
 /*
